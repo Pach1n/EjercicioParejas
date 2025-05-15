@@ -18,7 +18,7 @@ public class Config {
 			try {
 				
 				Configuration configuration = new Configuration();
-				
+				System.out.println("Buenas")
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
 				settings.put(Environment.URL, "jdbc:mysql://127.0.0.1:3307/agenda?useSSL=false");
